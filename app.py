@@ -7,7 +7,7 @@ from pypdf import PdfReader
 from sentence_transformers import SentenceTransformer
 
 import google.generativeai as genai
-genai.configure(api_key="AIzaSyBrUfmyKFDyNOYbNzMZCqXoie1_SAS4h0E")   # <-- put your google API here later
+genai.configure(api_key="GOOGLE_API_KEY")   # <-- put your google API here later
 
 st.set_page_config(
     page_title="Academic Paper Summarizer",
