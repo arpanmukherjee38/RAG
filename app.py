@@ -67,7 +67,7 @@ def generate_summary(query, index, chunks, embed_model):
         ANSWER:
         """
 
-        model = genai.GenerativeModel("gemini-1.5-flash")
+        model = genai.GenerativeModel("gemini-flash-latest")
         response = model.generate_content(prompt)
         return response.text.strip()
 
